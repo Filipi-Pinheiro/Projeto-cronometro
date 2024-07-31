@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="src/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="content">
+    <input type="text" placeholder="digite seu alarme" class="alarme" pattern="^(?:[0-1]\d|2[0-3]):[0-5]\d:[0-5]\d$
+      "/>
+    <button class="botaoAlarme">Adicionar</button>
+    <div class="campoAlarme"><p>adicione um valor</p></div>
+  </div>
+  
+  <div id="container">
+     <h1 id="time">00:00:00</h1>
+    <div class="botoes">
+      <button class="iniciar" onclick="iniciou()">INICIAR</button>
+      <button class="parar" onclick="parou()">PARAR</button>
+      <button class="zerar" onclick="zerou()">ZERAR</button>
+    </div>
+  </div>
+  <audio src="src/assets/alarme.mp3"</audio>
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
