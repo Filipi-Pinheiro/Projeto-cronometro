@@ -67,6 +67,8 @@ document.querySelector('.botaoAlarme').addEventListener('click', () => {
         alarme.pause()
       }
   }, 100)
+
+  inputAlarme.value = ''
 })
 
 document.querySelector('.campoAlarme'). addEventListener('dblclick', () => {
